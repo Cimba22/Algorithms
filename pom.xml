@@ -4,6 +4,17 @@
   <groupId>org.example</groupId>
   <artifactId>Algorithm</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
   <name>Archetype - Algorithm</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>LC</module>
+      <module>LC/remove-node-from-end-of-list</module>
+      <module>LC/two-sum</module>
+      <module>LC/valid-parentheses</module>
+  </modules>
+  <properties>
+    <maven.compiler.source>19</maven.compiler.source>
+    <maven.compiler.target>19</maven.compiler.target>
+  </properties>
 </project>
