@@ -1,5 +1,5 @@
 <archetype>
-  <id>Algorithm</id>
+  <id>Sorting</id>
   <sources>
     <source>src/main/java/App.java</source>
   </sources>
