@@ -7,5 +7,6 @@ in the respective data structure.*
 
 Here is a repository of sorting algorithms that I was able to find.
 ~~~
-1. Selection sort  |    
+1. Selection sort  | 
+2. Bubble sort     |   
 ~~~
