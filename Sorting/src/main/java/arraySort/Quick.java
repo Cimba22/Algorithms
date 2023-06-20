@@ -7,6 +7,16 @@ package arraySort;
  *  которые разделились опорным элементом на две части — слева и справа от него.
  *  Асимптотика: O(n log n) в среднем и лучшем случае, O(n2). Наихудшая
  *  * оценка достигается при неудачном выборе опорного элемента.
+ *      Advantages of Quick Sort:
+ * It is a divide-and-conquer algorithm that makes it easier to solve problems.
+ * It is efficient on large data sets.
+ * It has a low overhead, as it only requires a small amount of memory to function.
+ *      Disadvantages of Quick Sort:
+ * It has a worst-case time complexity of O(N2), which occurs when the pivot is chosen poorly.
+ * It is not a good choice for small data sets.
+ * It is not a stable sort, meaning that if two elements have the same key,
+ *   their relative order will not be preserved in the sorted output in case of quick sort,
+ *    because here we are swapping elements according to the pivot’s position (without considering their original positions).
  */
 public class Quick {
     public static void quickSort(int[] array, int low, int high) {
