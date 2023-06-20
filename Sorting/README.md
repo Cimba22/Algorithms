@@ -11,5 +11,6 @@ Here is a repository of sorting algorithms that I was able to find.
 2. Bubble sort     |
 3. Insertion sort  |
 4. Merge sort      |
-5. Quick sort      |   
+5. Quick sort      |
+6. Heap sort       |   
 ~~~
