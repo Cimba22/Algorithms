@@ -40,11 +40,4 @@ public class Quick {
         quickSort(array, 0, array.length - 1);
     }
 
-    public static void main(String[] args) {
-        int[] sortArr = {12, 6, 4, 1, 15, 10};
-        sort(sortArr);
-        for (int j : sortArr) {
-            System.out.print(j + "\n");
-        }
-    }
 }
