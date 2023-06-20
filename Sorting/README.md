@@ -10,5 +10,5 @@ Here is a repository of sorting algorithms that I was able to find.
 1. Selection sort  | 
 2. Bubble sort     |
 3. Insertion sort  |
-   
+4. Merge sort      |   
 ~~~
