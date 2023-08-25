@@ -15,5 +15,6 @@
         <module>longest-common-prifix</module>
         <module>three-sum</module>
         <module>letter-comb-of-phone-num</module>
+        <module>guess-number-higher-or-lower</module>
     </modules>
 </project>

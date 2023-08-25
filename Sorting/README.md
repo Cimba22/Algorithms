@@ -13,5 +13,7 @@ Here is a repository of sorting algorithms that I was able to find.
 4. Merge sort      |
 5. Quick sort      |
 6. Heap sort       |
-7. Counting sort   |   
+7. Counting sort   |
+8. Radix sort      |
+9. Bucket sort     |   
 ~~~
