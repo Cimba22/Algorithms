@@ -16,5 +16,6 @@
         <module>three-sum</module>
         <module>letter-comb-of-phone-num</module>
         <module>guess-number-higher-or-lower</module>
+        <module>minimum-subsequence-in-non-Increasing-order</module>
     </modules>
 </project>
