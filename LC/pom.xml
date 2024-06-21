@@ -18,5 +18,6 @@
         <module>guess-number-higher-or-lower</module>
         <module>minimum-subsequence-in-non-Increasing-order</module>
         <module>bitwise-ORs-of-subarrays</module>
+        <module>min-right-shifts-to-sort-the-array</module>
     </modules>
 </project>

@@ -19,8 +19,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="guess-number-higher-or-lower" />
+        <module name="min-right-shifts-to-sort-the-array" />
         <module name="letter-comb-of-phone-num" />
         <module name="valid-parentheses" />
+        <module name="bitwise-ORs-of-subarrays" />
+        <module name="minimum-subsequence-in-non-Increasing-order" />
         <module name="remove-node-from-end-of-list" />
         <module name="three-sum" />
         <module name="roman-to-integer" />
