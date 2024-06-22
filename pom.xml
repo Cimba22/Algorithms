@@ -13,6 +13,7 @@
       <module>LC/two-sum</module>
       <module>LC/valid-parentheses</module>
       <module>Sorting</module>
+      <module>LC/pass-the-pillow</module>
   </modules>
   <properties>
     <maven.compiler.source>19</maven.compiler.source>
