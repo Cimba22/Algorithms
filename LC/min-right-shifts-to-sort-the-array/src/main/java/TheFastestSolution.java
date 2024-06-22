@@ -27,7 +27,7 @@ public class TheFastestSolution {
         }
 
 
-        if (breakPoints == 1 && nums.get(len - 1) <= nums.get(0)) {
+        if (breakPoints == 1 && nums.get(len - 1) <= nums.getFirst()) {
             return len - index;
         } else if (breakPoints == 0) {
             return 0;
