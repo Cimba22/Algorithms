@@ -14,6 +14,7 @@
       <directory url="file://$PROJECT_DIR$/Sorting/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/pass-the-pillow/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/minimum-cuts-to-divide-a-circle/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/LC/calculate-amount-paid-in-taxes/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -22,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="guess-number-higher-or-lower" />
         <module name="letter-comb-of-phone-num" />
+        <module name="calculate-amount-paid-in-taxes" />
         <module name="minimum-cuts-to-divide-a-circle" />
         <module name="roman-to-integer" />
         <module name="longest-common-prifix" />
