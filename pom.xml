@@ -17,6 +17,7 @@
     <module>LC/calculate-amount-paid-in-taxes</module>
       <module>LC/array-partition</module>
       <module>LC/kth-missing-positive-number</module>
+      <module>LC/maximum-69-number</module>
   </modules>
   <properties>
     <maven.compiler.source>22</maven.compiler.source>

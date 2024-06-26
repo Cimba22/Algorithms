@@ -17,6 +17,7 @@
       <directory url="file://$PROJECT_DIR$/LC/calculate-amount-paid-in-taxes/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/array-partition/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/kth-missing-positive-number/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/LC/maximum-69-number/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -35,6 +36,7 @@
         <module name="valid-parentheses" />
         <module name="bitwise-ORs-of-subarrays" />
         <module name="minimum-subsequence-in-non-Increasing-order" />
+        <module name="maximum-69-number" />
         <module name="pass-the-pillow" />
         <module name="remove-node-from-end-of-list" />
         <module name="array-partition" />
