@@ -15,6 +15,8 @@
       <directory url="file://$PROJECT_DIR$/LC/pass-the-pillow/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/minimum-cuts-to-divide-a-circle/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/calculate-amount-paid-in-taxes/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/LC/array-partition/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/LC/kth-missing-positive-number/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -25,6 +27,7 @@
         <module name="letter-comb-of-phone-num" />
         <module name="calculate-amount-paid-in-taxes" />
         <module name="minimum-cuts-to-divide-a-circle" />
+        <module name="kth-missing-positive-number" />
         <module name="roman-to-integer" />
         <module name="longest-common-prifix" />
         <module name="Sorting" />
@@ -34,6 +37,7 @@
         <module name="minimum-subsequence-in-non-Increasing-order" />
         <module name="pass-the-pillow" />
         <module name="remove-node-from-end-of-list" />
+        <module name="array-partition" />
         <module name="three-sum" />
         <module name="two-sum" />
       </profile>
