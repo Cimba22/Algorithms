@@ -19,6 +19,7 @@
       <module>LC/kth-missing-positive-number</module>
       <module>LC/maximum-69-number</module>
       <module>LC/score-of-a-string</module>
+      <module>LC/make-a-square-with-the-same-color</module>
   </modules>
   <properties>
     <maven.compiler.source>22</maven.compiler.source>

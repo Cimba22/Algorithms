@@ -19,6 +19,7 @@
       <directory url="file://$PROJECT_DIR$/LC/kth-missing-positive-number/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/maximum-69-number/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/score-of-a-string/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/LC/make-a-square-with-the-same-color/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -44,6 +45,7 @@
         <module name="array-partition" />
         <module name="three-sum" />
         <module name="two-sum" />
+        <module name="make-a-square-with-the-same-color" />
       </profile>
     </annotationProcessing>
   </component>
