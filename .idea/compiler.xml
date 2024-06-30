@@ -20,6 +20,7 @@
       <directory url="file://$PROJECT_DIR$/LC/maximum-69-number/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/score-of-a-string/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/make-a-square-with-the-same-color/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/LC/maximum-number-of-operations-with-the-same-score/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -38,6 +39,7 @@
         <module name="min-right-shifts-to-sort-the-array" />
         <module name="valid-parentheses" />
         <module name="bitwise-ORs-of-subarrays" />
+        <module name="maximum-number-of-operations-with-the-same-score" />
         <module name="minimum-subsequence-in-non-Increasing-order" />
         <module name="maximum-69-number" />
         <module name="pass-the-pillow" />
