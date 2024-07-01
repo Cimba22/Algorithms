@@ -21,6 +21,7 @@
       <module>LC/score-of-a-string</module>
       <module>LC/make-a-square-with-the-same-color</module>
     <module>LC/maximum-number-of-operations-with-the-same-score</module>
+      <module>LC/minimum-changes-to-make-alternating-binary-string</module>
   </modules>
   <properties>
     <maven.compiler.source>22</maven.compiler.source>

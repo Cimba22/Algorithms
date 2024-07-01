@@ -21,6 +21,7 @@
       <directory url="file://$PROJECT_DIR$/LC/score-of-a-string/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/make-a-square-with-the-same-color/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/maximum-number-of-operations-with-the-same-score/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/LC/minimum-changes-to-make-alternating-binary-string/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -36,6 +37,7 @@
         <module name="roman-to-integer" />
         <module name="longest-common-prifix" />
         <module name="Sorting" />
+        <module name="minimum-changes-to-make-alternating-binary-string" />
         <module name="min-right-shifts-to-sort-the-array" />
         <module name="valid-parentheses" />
         <module name="bitwise-ORs-of-subarrays" />
