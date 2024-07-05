@@ -23,6 +23,7 @@
       <directory url="file://$PROJECT_DIR$/LC/maximum-number-of-operations-with-the-same-score/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/minimum-changes-to-make-alternating-binary-string/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/how-many--numbers-are-smaller-then-the-current-number/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/LC/can-place-flowers/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -34,6 +35,7 @@
         <module name="calculate-amount-paid-in-taxes" />
         <module name="score-of-a-string" />
         <module name="minimum-cuts-to-divide-a-circle" />
+        <module name="can-place-flowers" />
         <module name="kth-missing-positive-number" />
         <module name="roman-to-integer" />
         <module name="longest-common-prifix" />

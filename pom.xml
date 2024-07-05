@@ -23,6 +23,7 @@
     <module>LC/maximum-number-of-operations-with-the-same-score</module>
       <module>LC/minimum-changes-to-make-alternating-binary-string</module>
       <module>LC/how-many--numbers-are-smaller-then-the-current-number</module>
+      <module>LC/can-place-flowers</module>
   </modules>
   <properties>
     <maven.compiler.source>22</maven.compiler.source>
