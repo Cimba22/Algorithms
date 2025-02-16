@@ -12,21 +12,27 @@
       <directory url="file://$PROJECT_DIR$/LC/two-sum/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/LC/valid-parentheses/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Sorting/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/LC/bitwise-ORs-of-subarrays/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="majority-element" />
         <module name="guess-number-higher-or-lower" />
         <module name="letter-comb-of-phone-num" />
-        <module name="valid-parentheses" />
-        <module name="remove-node-from-end-of-list" />
-        <module name="three-sum" />
+        <module name="split-the-array" />
         <module name="roman-to-integer" />
         <module name="longest-common-prifix" />
-        <module name="two-sum" />
         <module name="Sorting" />
+        <module name="valid-parentheses" />
+        <module name="bitwise-ORs-of-subarrays" />
+        <module name="minimum-subsequence-in-non-Increasing-order" />
+        <module name="remove-node-from-end-of-list" />
+        <module name="three-sum" />
+        <module name="maximum-sum-with-exactly-K-elements" />
+        <module name="two-sum" />
       </profile>
     </annotationProcessing>
   </component>
