@@ -10,4 +10,12 @@
     <artifactId>calculate-amount-paid-in-taxes</artifactId>
     <name>Archetype - calculate-amount-paid-in-taxes</name>
     <url>http://maven.apache.org</url>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
