@@ -15,6 +15,7 @@
       <module>Sorting</module>
       <module>LC/the-two-sneaky-numbers-of-Digitville</module>
       <module>LC/minimum-time-visiting-all-points</module>
+      <module>LC/complement-of-base-10-integer</module>
   </modules>
   <properties>
     <maven.compiler.source>19</maven.compiler.source>
