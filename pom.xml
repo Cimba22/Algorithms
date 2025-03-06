@@ -11,6 +11,18 @@
     <module>LC</module>
       <module>LC/remove-node-from-end-of-list</module>
       <module>LC/two-sum</module>
+      <module>LC/score-of-a-string</module>
+      <module>LC/pass-the-pillow</module>
+      <module>LC/minimum-changes-to-make-alternating-binary-string</module>
+      <module>LC/maximum-sum-with-exactly-K-elements</module>
+      <module>LC/maximum-number-of-operations-with-the-same-score</module>
+      <module>LC/maximum-69-number</module>
+      <module>LC/make-a-square-with-the-same-color</module>
+      <module>LC/majority-element</module>
+      <module>LC/kth-missing-positive-number</module>
+      <module>LC/array-partition</module>
+      <module>LC/can-place-flowers</module>
+      <module>LC/how-many--numbers-are-smaller-then-the-current-number</module>
       <module>LC/valid-parentheses</module>
       <module>Sorting</module>
       <module>LC/the-two-sneaky-numbers-of-Digitville</module>
