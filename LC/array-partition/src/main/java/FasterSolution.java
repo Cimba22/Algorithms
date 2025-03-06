@@ -1,29 +1,25 @@
-public class FasterSolution {
-    public int arrayPairSum(int[] nums) {
-        int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
-        for (int num : nums) {
-            max = Math.max(num, max);
-            min = Math.min(num, min);
+class FasterSolution {
+    static {
+        for(int i = 0; i < 100; i++) {
+            arrayPairSum(new int[]{1,2});
         }
-        int[] counts = new int[max - min + 1];
-        for (int num : nums) {
-            counts[num - min]++;
-        }
-        int res = 0;
-        int idx = 0;
-        for (int i = 0; i < nums.length / 2; i++) {
-            while (counts[idx] == 0) {
-                idx++;
-            }
-            res += idx;
-            counts[idx]--;
-            while (counts[idx] == 0) {
-                idx++;
-            }
-            counts[idx]--;
-        }
-        return res + nums.length / 2 * min;
     }
-
+    public static int arrayPairSum(int[] nums) {
+        int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+        for (int num: nums) {
+            if(min > num) min = num;
+            if(max < num) max = num;
+        }
+        int[] freq = new int[max - min + 1];
+        for (int num: nums) {
+            freq[num - min]++;
+        }
+        int sum = 0, rem = 1;
+        for (int i = 0; i < freq.length; i++) {
+            int num = freq[i];
+            sum += ((num + rem) >> 1) * (i + min);
+            rem ^= num & 1;
+        }
+        return sum;
+    }
 }

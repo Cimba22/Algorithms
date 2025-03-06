@@ -1,4 +1,6 @@
-# Array Partition Problem
+# 561 Array Partition Problem
+
+`Array` `Greedy` `Sorting` `Counting Sort`
 
 ## Описание
 
@@ -43,13 +45,11 @@ Explanation:
 
 ### Доказательство
 Пусть nums — массив, отсортированный в порядке возрастания.
-Рассмотрим пары чисел, образованные таким образом: (nums[0], nums[1]), (nums[2], nums[3]), ..., (nums[2n-2], nums[2n-1]).
-Минимальные значения этих пар будут: nums[0], nums[2], nums[4], ..., nums[2n-2].
+Рассмотрим пары чисел, образованные таким образом: `(nums[0], nums[1]), (nums[2], nums[3]), ..., (nums[2n-2], nums[2n-1])`.
+Минимальные значения этих пар будут: `nums[0], nums[2], nums[4], ..., nums[2n-2]`.
 Таким образом, любые перестановки чисел внутри пар не дадут суммы,
 большей чем сумма минимальных значений последовательных пар в отсортированном массиве.
 ```java
-import java.util.Arrays;
-
 public class ArrayPartition {
 public static int arrayPairSum(int[] nums) {
 // Сортируем массив
