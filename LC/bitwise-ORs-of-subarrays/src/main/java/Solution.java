@@ -13,10 +13,8 @@ public class Solution {
             for (int current : currentResults) {
                 newResults.add(num | current);
             }
-
             uniqueResults.addAll(currentResults = newResults);
         }
-
         return uniqueResults.size();
     }
 

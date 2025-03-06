@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/LC/complement-of-base-10-integer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LC/complement-of-base-10-integer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/guess-number-higher-or-lower/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/guess-number-higher-or-lower/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/letter-comb-of-phone-num/src/main/java" charset="UTF-8" />
@@ -9,12 +11,20 @@
     <file url="file://$PROJECT_DIR$/LC/longest-common-prifix/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/minimum-subsequence-in-non-Increasing-order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/minimum-subsequence-in-non-Increasing-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LC/minimum-time-visiting-all-points/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LC/minimum-time-visiting-all-points/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/remove-node-from-end-of-list/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/remove-node-from-end-of-list/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/roman-to-integer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/roman-to-integer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LC/sort-the-people/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LC/sort-the-people/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LC/split-the-array/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LC/split-the-array/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LC/the-two-sneaky-numbers-of-Digitville/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LC/the-two-sneaky-numbers-of-Digitville/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/three-sum/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/three-sum/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LC/two-sum/src/main/java" charset="UTF-8" />
