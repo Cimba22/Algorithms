@@ -6,7 +6,6 @@ public class Solution {
         int target = 0;
         Arrays.sort(nums);
         Set<List<Integer>> s = new HashSet<>();
-        List<List<Integer>> output = new ArrayList<>();
         for (int i = 0; i < nums.length; i++){
             int j = i + 1;
             int k = nums.length - 1;
@@ -23,9 +22,7 @@ public class Solution {
                 }
             }
         }
-        output.addAll(s);
-        return output;
-
+        return new ArrayList<>(s);
     }
 
     public static void main(String[] args) {
