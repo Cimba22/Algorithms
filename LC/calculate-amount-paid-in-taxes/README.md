@@ -1,4 +1,6 @@
-# Tax Calculator
+# 2303. Calculate Amount Paid in Taxes
+
+`Array` `Simulation`
 
 This project provides a solution to calculate the amount of tax paid based on different tax brackets and an individual's income. The solution is implemented in Java, and includes a main class `TaxCalculator` and a corresponding test class `TaxCalculatorTest` using JUnit.
 
@@ -38,32 +40,83 @@ Given an integer `income` representing the amount of money earned, the objective
 
 ## Solution
 
-### Class `TaxCalculator`
 
-This class contains the main method `calculateTax` which computes the tax based on the given brackets and income.
+#### **Задача в двух словах**
+Дан **прогрессивный налог** в виде границ дохода и соответствующих процентных ставок. Нужно вычислить **общую сумму налога** для заданного `income`.
 
+---
+
+### **Разбор кода**
 ```java
-public class TaxCalculator {
-    public static double calculateTax(int[][] brackets, int income) {
-        double totalTax = 0.0;
-        int previousUpper = 0;
+public double calculateTax(int[][] brackets, int income) {
+    double totalTax = 0.0; // Общая сумма налога
+    int previousUpper = 0; // Граница предыдущего налогового диапазона
 
-        for (int[] bracket : brackets) {
-            int upper = bracket[0];
-            int percent = bracket[1];
+    for (int[] bracket : brackets) {
+        int upper = bracket[0];  // Верхняя граница текущего налогового диапазона
+        int percent = bracket[1]; // Ставка налога для этого диапазона
 
-            if (income > upper) {
-                int taxableIncome = upper - previousUpper;
-                totalTax += taxableIncome * percent / 100.0;
-            } else {
-                int taxableIncome = income - previousUpper;
-                totalTax += taxableIncome * percent / 100.0;
-                break;
-            }
-
-            previousUpper = upper;
+        if (income > upper) {
+            // Если доход превышает текущую верхнюю границу, считаем налог для полного диапазона
+            int taxableIncome = upper - previousUpper;
+            totalTax += (double) (taxableIncome * percent) / 100;
+        } else {
+            // Если доход меньше текущей верхней границы, считаем налог только для доступного дохода
+            int taxableIncome = income - previousUpper;
+            totalTax += (double) (taxableIncome * percent) / 100;
+            break; // Все доход обработан, можно выйти из цикла
         }
-
-        return totalTax;
+        previousUpper = upper; // Обновляем границу для следующего диапазона
     }
+    return totalTax;
 }
+```
+
+---
+
+### **Как работает алгоритм?**
+1. **Проходим по налоговым диапазонам (`brackets`)**
+   - `upper` — верхняя граница текущего диапазона.
+   - `percent` — ставка налога для данного диапазона.
+
+2. **Рассчитываем налог для каждого диапазона:**
+   - Если **доход больше** верхней границы `upper`, то облагается налогом весь диапазон `upper - previousUpper`.
+   - Если **доход меньше** текущей границы, налог вычисляется только для оставшегося дохода `income - previousUpper`, после чего вычисление заканчивается (`break`).
+
+3. **Обновляем `previousUpper`, чтобы отслеживать начало следующего диапазона.**
+
+---
+
+### **Пример работы**
+#### **Входные данные**
+```java
+brackets = [[10, 10], [20, 20], [30, 30]]
+income = 25
+```
+- Налоговая шкала:
+   - **До 10** → 10%
+   - **От 10 до 20** → 20%
+   - **От 20 до 30** → 30%
+
+#### **Шаги вычисления**
+1. **Первый диапазон** `(0 - 10)`:
+   - `10 * 10% = 1.0`
+2. **Второй диапазон** `(10 - 20)`:
+   - `10 * 20% = 2.0`
+3. **Третий диапазон** `(20 - 25)` (неполный, так как доход 25):
+   - `5 * 30% = 1.5`
+4. **Итого налог**:
+   - `1.0 + 2.0 + 1.5 = 4.5`
+
+**Ответ:** `4.5`
+
+---
+
+### **Сложность алгоритма**
+- **Временная сложность**: `O(n)`, так как проходим по `brackets` **максимум один раз**.
+- **Доп. память**: `O(1)`, так как используем **только переменные**.
+
+---
+
+### **Вывод**
+Этот алгоритм **эффективно рассчитывает налог** по прогрессивной шкале, используя **последовательное суммирование** налога для каждого диапазона.
