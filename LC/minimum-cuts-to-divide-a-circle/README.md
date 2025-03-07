@@ -1,5 +1,7 @@
 # 2481. Minimum Cuts to Divide a Circle
 
+`Math` `Geometry`
+
 ## Problem Statement
 A valid cut in a circle can be:
 
@@ -38,7 +40,7 @@ To solve this problem, we need to consider how many cuts are required to divide 
     - If `n` is even, the minimum number of cuts needed is `n / 2`.
     - If `n` is odd, the minimum number of cuts needed is `n`.
 
-Here is the Python code to implement this logic:
+
 
 ```java
 public class Solution {
