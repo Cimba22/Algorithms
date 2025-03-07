@@ -1,4 +1,6 @@
-# Make a Square with the Same Color
+# 3127. Make a Square with the Same Color
+
+`Array` `Matrix` `Enumeration`
 
 ## Problem Description
 
@@ -12,20 +14,20 @@ Return `true` if it is possible to create a 2 x 2 square of the same color, othe
 
 #### Example 1:
 
-Input: grid = [["B","W","B"],["B","W","W"],["B","W","B"]]
+Input: grid = `[["B","W","B"],["B","W","W"],["B","W","B"]]`
 
 Output: true
 
 
 
 #### Explanation:
-It can be done by changing the color of the grid[0][2].
+It can be done by changing the color of the `grid[0][2]`.
 
 
 
 ----
 #### Example 2:
-Input: grid = [["B","W","B"],["W","B","W"],["B","W","B"]]
+Input: grid = `[["B","W","B"],["W","B","W"],["B","W","B"]]`
 
 Output: false
 
