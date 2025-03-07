@@ -5,7 +5,6 @@ import java.util.List;
  * Если порядок нарушен, увеличиваем breakPoints и сохраняем текущий индекс i в переменной index.
  * Если breakPoints == 1 и последний элемент массива nums.get(len - 1) меньше или равен первому элементу nums.get(0),
  * это означает, что массив можно отсортировать одним циклическим сдвигом. В этом случае возвращаем количество сдвигов len - index.
- *
  */
 public class TheFastestSolution {
     public int minimumRightShifts(List<Integer> nums) {
@@ -25,7 +24,6 @@ public class TheFastestSolution {
                 index = i;
             }
         }
-
 
         if (breakPoints == 1 && nums.get(len - 1) <= nums.getFirst()) {
             return len - index;
