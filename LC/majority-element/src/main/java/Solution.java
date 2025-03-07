@@ -1,25 +1,30 @@
-import java.util.Arrays;
 
-public class Solution {
+class Solution {
     public int majorityElement(int[] nums) {
+        int candidate = nums[0];
+        int count = 1;
 
-        int result = 0;
-        Arrays.sort(nums);
-        int counter = 0;
-        int[] temp = new int[nums.length];
-
-        for (int i = 0; i <= nums.length - 1; i++){
-            temp[i] = nums[i];
-
+        // Первый проход: нахождение кандидата
+        for (int i = 1; i < nums.length; i++) {
+            if (count == 0) {
+                candidate = nums[i];
+                count = 1;
+            } else if (nums[i] == candidate) {
+                count++;
+            } else {
+                count--;
+            }
         }
 
-        return result;
+        // Возвращаем найденного кандидата (по условию задачи он всегда будет мажоритарным)
+        return candidate;
     }
+
 
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] arr = {2,4,3,2,6,2,6,6,6,9};
-        solution.majorityElement(arr);
+        int[] arr = {-1,1,1,1,2,1};
+        System.out.println(solution.majorityElement(arr));
     }
 }

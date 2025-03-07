@@ -43,7 +43,9 @@
         <module name="bitwise-ORs-of-subarrays" />
         <module name="pass-the-pillow" />
         <module name="three-sum" />
+        <module name="maximum-sum-with-exactly-K-elements" />
         <module name="two-sum" />
+        <module name="majority-element" />
         <module name="guess-number-higher-or-lower" />
         <module name="letter-comb-of-phone-num" />
         <module name="split-the-array" />
