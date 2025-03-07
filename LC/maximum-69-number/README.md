@@ -1,4 +1,5 @@
-# Maximum 69 Number
+# 1323. Maximum 69 Number
+`Math` `Greedy`
 
 This project contains a Java implementation for solving the "Maximum 69 Number" problem, where the goal is to maximize a given number by changing at most one digit from `6` to `9` or from `9` to `6`.
 
