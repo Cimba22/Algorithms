@@ -1,4 +1,5 @@
-# Score of a String
+# 3110. Score of a String
+`String`
 
 ## Problem Description
 
