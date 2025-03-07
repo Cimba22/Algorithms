@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Arrays;
-
 class Solution {
     public static int minTimeToVisitAllPoints(int[][] points) {
         int totalTime = 0;
