@@ -31,6 +31,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="calculate-amount-paid-in-taxes" />
+        <module name="longest-substring-of-all-vowels-in-order" />
         <module name="minimum-cuts-to-divide-a-circle" />
         <module name="minimum-time-visiting-all-points" />
         <module name="can-place-flowers" />
