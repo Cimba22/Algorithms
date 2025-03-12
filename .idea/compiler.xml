@@ -60,6 +60,7 @@
         <module name="minimum-subsequence-in-non-Increasing-order" />
         <module name="sort-the-people" />
         <module name="maximum-69-number" />
+        <module name="insert-interval" />
         <module name="remove-node-from-end-of-list" />
         <module name="array-partition" />
         <module name="make-a-square-with-the-same-color" />
