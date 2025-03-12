@@ -51,6 +51,7 @@
         <module name="letter-comb-of-phone-num" />
         <module name="split-the-array" />
         <module name="score-of-a-string" />
+        <module name="merge-intervals" />
         <module name="Sorting" />
         <module name="complement-of-base-10-integer" />
         <module name="min-right-shifts-to-sort-the-array" />
