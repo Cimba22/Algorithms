@@ -32,6 +32,8 @@
       <module>LC/longest-substring-of-all-vowels-in-order</module>
       <module>LC/merge-intervals</module>
       <module>LC/insert-interval</module>
+      <module>LC/merge-sorted-array</module>
+      <module>LC/reformat-phone-number</module>
   </modules>
   <properties>
     <maven.compiler.source>19</maven.compiler.source>
