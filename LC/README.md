@@ -30,6 +30,8 @@
 | **split-the-array**                                                                                                                                                  | Some new solutions from LC.                                                                                                                    | _Add tags here_                                                |
 | **the-two-sneaky-numbers-of-Digitville**                                                                                                                             | getSneakyNumbers in LC.                                                                                                                        | _Add tags here_                                                |
 | **two-sum**                                                                                                                                                          | Problems from LC.                                                                                                                              | _Add tags here_                                                |
+| **reformat-phone-number**                                                                                                                                            | Remove unnecessary characters and bring to telephone standard                                                                                  | `String`                                                       |
+
 ## Medium
 
 | Problem                                                                                                                                     | Description                                                                                              | Tags                                 |
@@ -41,7 +43,6 @@
 | [**longest-substring-of-all-vowels-in-order**](https://github.com/Cimba22/Algorithms/tree/main/LC/longest-substring-of-all-vowels-in-order) | Return the length of the longest beautiful substring of word.                                            | `String` `Sliding Window`            |
 | [**merge-intervals**](https://github.com/Cimba22/Algorithms/tree/main/LC/merge-intervals)                                                   | Return an array of the non-overlapping intervals that cover all the intervals in the input.              | `Array` `Sorting`                    |
 | [**insert-interval**](https://github.com/Cimba22/Algorithms/tree/main/LC/insert-interval)                                                   | Insert newInterval into intervals.                                                                       | `Array`                              |
-
 
 ## Hard
 
