@@ -21,6 +21,7 @@
         <module>min-right-shifts-to-sort-the-array</module>
         <module>minimum-cuts-to-divide-a-circle</module>
         <module>first-unique-character-in-a-string</module>
+        <module>minimum-number-of-operations-to-convert-time</module>
     </modules>
 
     <properties>
