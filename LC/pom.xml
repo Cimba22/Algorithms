@@ -22,6 +22,7 @@
         <module>minimum-cuts-to-divide-a-circle</module>
         <module>first-unique-character-in-a-string</module>
         <module>minimum-number-of-operations-to-convert-time</module>
+        <module>find-the-smallest-divisorgiven-a-threshold</module>
     </modules>
 
     <properties>
