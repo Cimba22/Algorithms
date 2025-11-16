@@ -24,6 +24,7 @@
         <module>minimum-number-of-operations-to-convert-time</module>
         <module>find-the-smallest-divisorgiven-a-threshold</module>
         <module>rotate-image</module>
+        <module>combine-two-tables</module>
     </modules>
 
     <properties>
